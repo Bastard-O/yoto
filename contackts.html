@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Контакты — Акматов Анарбек</title>
+  <meta name="description" content="Связь: Telegram, Email, GitHub" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="index.html">anarbk.dev</a>
+
+      <nav class="nav__links" aria-label="Навигация">
+        <a class="pill" href="index.html">Обо мне</a>
+        <a class="pill" href="works.html">Мои работы</a>
+        <a class="pill is-active" href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero hero--small">
+      <div class="reveal">
+        <h1 class="h1">Контакты</h1>
+      </div>
+      <div class="reveal" style="transition-delay: 80ms">
+        <p class="lead">Напишите — отвечу и уточню задачу.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="reveal">
+        <div class="section__title">Связаться</div>
+      </div>
+
+      <div class="stack">
+        <a class="contactCard reveal" href="https://t.me/Anakonda911" target="_blank" rel="noreferrer">
+          <div class="contactCard__left">
+            <div class="icon">TG</div>
+            <div>
+              <div class="contactCard__title">Telegram</div>
+              <div class="muted">@Anakonda911</div>
+            </div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+
+        <a class="contactCard reveal" style="transition-delay: 60ms" href="mailto:your_raionski01@gmail.com">
+          <div class="contactCard__left">
+            <div class="icon">EM</div>
+            <div>
+              <div class="contactCard__title">Email</div>
+              <div class="muted">your_raionski01@gmail.com</div>
+            </div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+
+        <a class="contactCard reveal" style="transition-delay: 120ms" href="https://github.com/your_github_username" target="_blank" rel="noreferrer">
+          <div class="contactCard__left">
+            <div class="icon">GH</div>
+            <div>
+              <div class="contactCard__title">GitHub</div>
+              <div class="muted">your_github_username</div>
+            </div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer reveal">
+      <span>© <span id="year"></span> Акматов Анарбек</span>
+      <span class="muted">Contact</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
